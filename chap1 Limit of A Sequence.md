@@ -5,8 +5,8 @@
 证明： $n\ge 2$ 时，假设 $\sqrt[n]{n}=a_n+1$  
 此时， $n=(a_n+1)^n=1+na_n+\frac{n(n+1)}{2}a_n^2+\dots+a_n^n \gt \frac{n(n+1)}{2}a_n^2$  
 即 $0 \lt a_n \lt \sqrt{\frac{2}{n+1}}$  
-于是， $\forall \varepsilon \gt 0, \exist N= \text{max}\{2,[\frac{2}{\varepsilon^2}]+1\}$，当 $n \ge N$ 时，  
-$|\sqrt[n]{n}-1|=a_n \lt \sqrt{\frac{2}{m-1}} \le \sqrt{\frac{2}{n-\frac{n}{2}}} =\frac{2}{\sqrt{n}} \lt \varepsilon $  
+于是， $\forall \varepsilon \gt 0,\exists N= \text{max}\{2,[\frac{2}{\varepsilon^2}]+1\}$，当 $n \ge N$ 时，
+$|\sqrt[n]{n}-1|=a_n \lt \sqrt{\frac{2}{m-1}} \le \sqrt{\frac{2}{n-\frac{n}{2}}} =\frac{2}{\sqrt{n}} \lt \varepsilon $   
 所以， $\displaystyle \lim_{n \to \infty}\sqrt[n]{n}=1$ 
 
 ### 二、收敛数列的性质与极限的四则运算法则
