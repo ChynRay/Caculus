@@ -16,11 +16,11 @@
 
 $$
 \begin{align*}​
-\int \frac{dx}{(2x^2 + 1)\sqrt{x^2 + 1}} &= \int \frac{\sec^2 t dt}{(2\tan^2 t + 1)\sec t} \\​
-&= \int \frac{\sec t dt}{2\tan^2 t + 1} \\​
-&= \int \frac{\frac{1}{\cos t}}{\frac{2\sin^2 t + \cos^2 t}{\cos^2 t}} dt \\​
-&= \int \frac{\cos t dt}{2\sin^2 t + \cos^2 t} \\​
-&= \int \frac{\cos t dt}{\sin^2 t + 1}​
+\int \frac{dx}{(2x^2 + 1)\sqrt{x^2 + 1}} &= \int \frac{\sec^2 t dt}{(2\tan^2 t + 1)\sec t} \\
+&=\int \frac{\sec t dt}{2\tan^2 t + 1} \\
+&=\int \frac{\frac{1}{\cos t}}{\frac{2\sin^2 t + \cos^2 t}{\cos^2 t}} dt \\​
+&=\int \frac{\cos t dt}{2\sin^2 t + \cos^2 t} \\​
+&=\int \frac{\cos t dt}{\sin^2 t + 1}​
 \end{align*}
 $$
 
@@ -41,6 +41,12 @@ $$
 \end{align*}
 $$
 
+2、 求 $\int \frac{1}{x^4+1}$
+
+解：
+由 $x^4+1=(x^2-\sqrt{2}x+1)(x^2+\sqrt{2}x+1)$ 分离，化简得：
+ $\frac{1}{4 \sqrt{2}}\ln |\frac{x^2+\sqrt{2}x+1}{x^2-\sqrt{2}x+1}|+\frac{1}{2\sqrt{2}}\arctan(\frac{\sqrt{2}x}{1-x^2})+C$  
+
 ### 二、可有理化函数的不定积分
 
 1、求 $\int \sqrt{\frac{x-a}{b-x}}dx,a \lt x \lt b$
@@ -55,3 +61,5 @@ $$
 &=(b-a)\arcsin \sqrt{\frac{x-a}{b-a}} - \sqrt{(x-a)(b-x)} + C
 \end{align*}
 $$
+
+2、
