@@ -9,7 +9,7 @@
 1、求不定积分： $\int \frac{\sin x}{a\cos x + b\sin x}dx$
 解：
 注意到： $b(a\cos x + b\sin x)-a(a\cos x + b\sin x)^{'} = (b^2+a^2)\sin x$
-由此换元法易得答案为： $\frac{1}{a^2+b^2}(bx-a\ln |a\cos x + b\sin x|+C$
+由此换元法易得答案为： $\frac{1}{a^2+b^2}(bx-a)\ln |a\cos x + b\sin x|+C$
 
 2、求不定积分： $\int \frac{dx}{(2x^2+1)\sqrt{x^2+1}}$ .
 解：利用**三角变化**： $x=\tan t,t \in (-\frac{\pi}{2},\frac{\pi}{2})$  
@@ -18,7 +18,7 @@ $$
 \begin{align*}​
 \int \frac{dx}{(2x^2 + 1)\sqrt{x^2 + 1}} &= \int \frac{\sec^2 t dt}{(2\tan^2 t + 1)\sec t} \\
 &=\int \frac{\sec t dt}{2\tan^2 t + 1} \\
-&=\int \frac{\frac{1}{\cos t}}{\frac{2\sin^2 t + \cos^2 t}{\cos^2 t}} dt \\​
+&=\int \frac{\frac{1}{\cos t}}{\frac{2\sin^2 t + \cos^2 t}{\cos^2 t}}dt \\​
 &=\int \frac{\cos t dt}{2\sin^2 t + \cos^2 t} \\​
 &=\int \frac{\cos t dt}{\sin^2 t + 1}​
 \end{align*}
@@ -62,4 +62,16 @@ $$
 \end{align*}
 $$
 
-2、
+2、求： $\frac{dx}{3+\cos x}$ 
+
+**万能公式：**
+当 $x \ne (2k+1)\pi (k \in \Z)$ 时，令 $t=\tan \frac{x}{2}$ ，则有：
+
+$$
+\sin x = \frac{2t}{1+t^2} \\
+\cos x = \frac{1-t^2}{1+t^2} \\
+\tan x = \frac{2t}{1-t^2}
+$$
+
+解：
+代换易得答案为： $\frac{1}{\sqrt{2}}\arctan(\frac{t}{\sqrt{2}})+C$
