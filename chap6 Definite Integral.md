@@ -16,31 +16,47 @@
 
 ### 一、定积分的换元积分法
 
-1、求定积分： $\int ^3_0 \arcsin \sqrt{\frac{x}{x+1}}$ .  
+1、求定积分： $\int ^3_0 \arcsin \sqrt{\frac{x}{x+1}}dt$ .  
 令 $\arcsin \sqrt{\frac{x}{x+1}}=t$ ， 则 $x=\tan^2t$  
-通过计算得到答案为： $\frac{4\pi}{3}-\sqrt{3}$
-
+通过计算得到答案为： $\frac{4\pi}{3}-\sqrt{3}$  
 
 ### 二、定积分的分部积分法
 
 ### 三、变上限积分的导数与定积分不等式
 
-1、设 $f$ 在 $[a,b]$ 上连续，且 $f(x) \gt 0$ .证明：曲线  
+1、设 $f$ 在 $[a,b]$ 上连续，且 $f(x) \gt 0$ .证明：曲线
 
 $$
 F(x)=\int ^b_a |x-t|f(t)dt
 $$
 
-在 $[a,b]$ 上为向上凹的。  
+在 $[a,b]$ 上为向上凹的。
 
 证明：
-将原式拆分进行去绝对值。  
+将原式拆分进行去绝对值。
 
 $$
 F(x)=\int ^x_a (x-t)f(t)dt-\int ^b_x (x-t)f(t)dt
 $$
 
 对其求二阶导易得其恒大于 $0$ ；即为向上凹。
+
+2、设 $f$ 在 $[a,b]$ 上连续，且 $f(x) \gt 0.$ 证明：
+
+$$
+\int ^b_a f(x)dx \centerdot \int ^b_a \frac{dx}{f(x)} \ge (b-a)^2
+$$
+
+证明：
+由**柯西不等式**：
+
+$$
+(\int ^b_a f(x)g(x)dx)^2 \le \int ^b_a f^2(x)dx \centerdot \int ^b_a g^2(x)dx.
+$$
+
+易证。
+
+
 
 ## 6.5 反常积分
 
@@ -50,13 +66,13 @@ $$
 
 ### 三、反常积分的敛散性判别法
 
-1、设 $a \gt b \gt 0,$ 反常积分 $\int ^{+\infty}_0 \frac{1}{x^a+x^b}dx$ 收敛，则().
-A. $a \gt 1$ 且 $b \gt 1$
-B. $a \gt 1$ 且 $b \lt 1$
-C. $a \lt 1$ 且 $a+b \gt 1$
-D. $a \lt 1$ 且 $b \lt 1$
+1、设 $a \gt b \gt 0,$ 反常积分 $\int ^{+\infty}_0 \frac{1}{x^a+x^b}dx$ 收敛，则().  
+A. $a \gt 1$ 且 $b \gt 1$  
+B. $a \gt 1$ 且 $b \lt 1$  
+C. $a \lt 1$ 且 $a+b \gt 1$  
+D. $a \lt 1$ 且 $b \lt 1$  
 
-解：注意到要考虑 $x=0$ 和 $x \to +\infty$ 两种情况，因此要将其拆分。
+解：注意到要考虑 $x=0$ 和 $x \to +\infty$ 两种情况，因此要将其拆分。  
 最后容易得到答案为： $B$ .
 
 ## 6.6 定积分的应用
