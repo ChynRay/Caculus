@@ -41,6 +41,14 @@ $$
 
 ### 三、阿贝尔判别法与狄利克雷判别法
 
+1、判断 $\displaystyle \sum ^{+\infty}_{n=1}\frac{\sin n \centerdot \sin n^2}{n}$ 的敛散性。
+
+解：  
+**狄利克雷判别法：**  
+设数列 ${a_n}$ 单调，且 $\displaystyle _{n \to +\infty}a_n=0,$ 级数 $\displaystyle \sum ^{+\infty}_{n=1}b_n$ 的部分和有界，则级数 $\displaystyle ^{+\infty}_{n=1}a_nb_n$ 收敛。
+
+由**和积化差**将其变化，结合**狄利克雷判别法**，易得其为收敛。
+
 ### 四、绝对收敛级数的性质
 
 ## 7.4 幂级数及其和函数
