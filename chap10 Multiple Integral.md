@@ -59,4 +59,12 @@ $
 ### 10.5 重积分的应用
 ### 一、几何上的应用
 
+1、设 $\Omega = \{ (x,y,z)|4x^2+y^2+z^2-2z \le3 \},$ 则 $\underset{\Omega}{\iiint}zdv=\_.$  
+
+解：  
+**形心公式的逆用：**  
+$\bar{x}=\frac{\underset{\Omega}{\iiint}xdv}{\underset{\Omega}{\iiint}dv},$ 得 $\underset{\Omega}{\iiint}xdv=\bar{x}\centerdot V,$ 其中 $V$ 为 $\Omega$ 的体积。  
+
+由题目易得 $\Omega$ 的形心为 $\bar{z}=1,$ 答案为 $\frac{16}{3}\pi.$
+
 ### 二、物理上的应用
